@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+ol {
+    background:  #ff99bb;
+    padding: 20px;
+ list-style-position: inside;
+ color:white;
+}
+
+ol li {
+    background:   #b30059;
+    padding: 5px;
+    margin-left: 100px;
+ margin: 5px;
+}
+span {
+margin: 1px 10px 5px 0px;
+padding: 5px 10px 5px 10px;
+background-color: #990033;
+color:white;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<ol>
+  <li ><span >Apple</span></li>
+  <li><span>Orange</span></li>
+  <li><span>Pineapple</span></li>
+  <li><span>Pear</span></li>
+  <li><span>Cherry</span></li>
+</ol>
+
+
+</body>
+</html>
