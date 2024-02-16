@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<style> 
+ 
+ 
+.done{ 
+  list-style-image: url("checked_16.png"); 
+  background-color: whitesmoke;
+    height: 30px;
+     padding-top: 10px;
+    padding-left: 20px;
+  
+} 
+.undonedark{ 
+  list-style-image: url("unchecked_16.png"); 
+  background-color: skyblue;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    } 
+.undonelight{ 
+ list-style-image: url("unchecked_16.png"); 
+ background-color: aliceblue;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+ } 
+    ul li{
+        list-style-position: inside;
+    }
+  
+</style> 
+</head> 
+ 
+<body> 
+ 
+<ul> 
+<li class="undonedark"> Hit the gym <span style="color: indianred">&#10008;</span></li> 
+<li class="done"> Pay bills <span style="color: indianred">&#10008;</span></li> 
+<li class="undonedark"> Meet John <span style="color: indianred">&#10008;</span></li> 
+<li class="undonelight"> Buy Eggs <span style="color: indianred">&#10008;</span></li> 
+<li class="done"> Read a book<span style="color: indianred">&#10008;</span> </li>  
+<li class="undonelight"> Organize office <span style="color: indianred">&#10008;</span></li> 
+<li class="undonedark"> Eat dinner <span style="color: indianred">&#10008;</span></li> 
+<li class="undonelight"> Buy apples<span style="color: indianred">&#10008;</span></li> 
+<li class="undonedark"> Meet George<span style="color: indianred">&#10008;</span></li> 
+<li class="undonelight"> Feed the cat<span style="color: indianred">&#10008;</span> </li>  
+<li class="done"> Write a letter<span style="color: indianred">&#10008;</span></li>  
+<li class="undonelight"> Run 1 km <span style="color: indianred">&#10008;</span></li> 
+</ul> 
+ 
+ 
+ 
+ 
+</body> 
+</html>
