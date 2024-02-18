@@ -7,7 +7,7 @@
        }
        body{
            background-color: steelblue
-           
+
        }
        img {
         height: 25px;
@@ -71,6 +71,15 @@
     </td>
     <td >
         <img class="youtube" src="youtube_gray.png" alt="">
+    </td>
+  </tr>
+</table>
+<hr color="white">
+<p> Copyright &copy; Company 2018-2019</p>
+
+</body>
+</html>
+
     </td>
   </tr>
 </table>
