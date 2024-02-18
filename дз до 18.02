@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <style>
+    
+    .header {
+    background-color: #993366;
+    height: 60px;
+}
+
+.header_text {
+    position:fixed sticky;
+    padding: 10px 30px 1px 30px;
+    color: white;
+
+}
+
+.menu {
+    background-color: #99004d;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.menu_text {
+    position: fixed sticky;
+    padding: 7px 30px;
+    color: white;
+}
+
+.aside_1 {
+    background-color: #cc0066;
+    margin-top: 20px;
+    width: 450px;
+    height: 150px;
+
+}
+
+.aside_2 {
+    background-color: #cc0066;
+    margin-top: 10px;
+    width: 450px;
+    height: 250px;
+}
+
+.main_content {
+    background-color: #cc0066;
+    margin-top: 20px;
+    width: 880px;
+    height: 600px;
+    float: right;
+    margin-right: 10px;
+}
+
+.aside_3 {
+    background-color: #cc0066;
+    width: 140px;
+    height: 410px;
+    margin-top: 20px;
+}
+
+.section {
+    background-color: #df9fbf;
+    width: 730px;
+    height: 210px;
+    margin: 100px 40px 10px 90px;
+}
+
+.section_2 {
+    background-color: #df9fbf;
+    width: 730px;
+    height: 210px;
+    margin: 20px 90px;
+}
+
+.none {
+    width: 200px;
+    height: 190px
+}
+
+.none2 {
+    width: 70px;
+    height: 190px
+}
+
+.footer {
+    background-color: #99004d;
+    height: 30px;
+    margin-top: 20px
+}
+
+.aside_text {
+    float: left;
+    padding: 20px 30px;
+    color: white;
+}
+table {
+    width: 100%;
+}
+</style>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style3.css"> </head>
+
+<body>
+    <div class="container">
+        <div class="header"><span class="header_text">HEADER</span> </div>
+        <div class="menu"><span class="menu_text">MENU</span></div>
+        <table>
+            <tr>
+                <th>
+                    <div class="aside_1"><span class="aside_text">ASIDE 1</span></div>
+                    <div class="aside_2"><span class="aside_text">ASIDE 2</span> </div>
+                    <div class="none"></div>
+                </th>
+                <th>
+                    <div class="main_content"><span class="aside_text">MAIN CONTENT</span>
+                        <div class="section">
+                            <snap class="aside_text">SECTION 1</snap>
+                        </div>
+                        <div class="section_2"><span class="aside_text">SECTION 2</span></div>
+                    </div>
+                </th>
+                <th>
+                    <div class="aside_3"><span class="aside_text">ASIDE 3</span> </div>
+                    <div class="none2"></div>
+                </th>
+            </tr>
+        </table>
+        <div class="footer"><span class="menu_text">FOOTER </span ></div>
+</div>
+
+</body>
+</html>
