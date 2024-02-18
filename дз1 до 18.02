@@ -1,0 +1,61 @@
+<!doctype html> 
+<html lang="en"> 
+  <head> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+  <style> 
+ .border { 
+    display: inline-block; 
+    width: 157px; 
+    height: 165px; 
+    margin: 6px; 
+ border-radius: 8px; 
+    text-align:center; 
+ } 
+h1, p { 
+ text-align:center; 
+ } 
+  </style> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>fridge</title> 
+  </head> 
+  <body> 
+  <h1> What do I have in my fridge?</h1> 
+   <div class="container text-center"> 
+  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3"> 
+    <div class="col"> 
+      <div span class="border"></span> <img  src="Food_C247-128.png" alt="">  Pepper</div> 
+    </div> 
+    <div class="col"> 
+      <div span class="border"><img  src="Food_C240-128.png" alt="">Apple</div> 
+    </div> 
+    <div class="col"> 
+      <div span class="border"><img  alt="" src="Food_C217-128.png">Cheeze</div> 
+    </div> 
+    <div class="col"> 
+      <div span class="border"><img  alt="" src="Food_C245-128.png">Corn</div> 
+    </div> 
+    <div class="col"> 
+      <div span class="border"><img  alt="" src="Food_C239-128.png">Mushroom</div> 
+    </div> 
+    <div class="col"> 
+      <div span class="border"><img  alt="" src="Food_C238-128.png">Garlic</div> 
+    </div> 
+    <div class="col"> 
+      <div span class="border"><img  alt="" src="Food_C225-128.png">Beef</div> 
+    </div> 
+    <div class="col"> 
+      <div span class="border"><img  alt="" src="Food_C205-128.png">Fish</div> 
+    </div> 
+    <div class="col"> 
+      <div span class="border"><img  alt="" src="Food_C203-128.png">Eggs</div> 
+    </div> 
+    <div class="col"> 
+      <div span class="border"><img  alt="" src="Food_C235-128.png">Coriander</div> 
+    </div> 
+  </div> 
+</div> 
+<hr> 
+<p> ... that's all ... </p> 
+  </body> 
+</html>
