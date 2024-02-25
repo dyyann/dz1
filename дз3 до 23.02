@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+    font-family: sans-serif
+}
+
+td {
+    width: 200px;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px;
+    position: fixed;
+    background-color: white;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 25px;
+    color: white;
+    margin-top: 20px
+}
+
+.per {
+    color: gainsboro;
+    margin-top: 2px;
+}
+
+h1 {
+    margin-bottom: 4px;
+}
+
+hr {
+    height: 3px;
+    border: none;
+}
+
+h5 {
+    margin-bottom: 1px;
+}
+
+div:hover {
+    zoom: 1.1;
+}
+</style>
+    <meta charset="UTF-8">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <div class="enter">
+                <h3>ENTERPRISE</h3>
+                <hr style="background-color: red">
+                <h1 class="h1">$69</h1>
+                <h4 class="per">per month</h4>
+
+                <h5> 10GB disk space</h5>
+                <h5> 100GB monthly bandwidth</h5>
+                <h5> 20 email accounts</h5>
+                <h5> Unlimited subdomens</h5>
+                <button style="background-color: red">BUY</button>
+            </div>
+        </td>
+        <td><div class="enter">
+                <h3>PROFESSIONAL</h3>
+                <hr style="background-color: yellow">
+                <h1>$29</h1>
+                <h4 class="per">per month</h4>
+
+                <h5>10GB disk space </h5>
+                <h5> 100GB monthly bandwidth</h5>
+                <h5> 20 email accounts</h5>
+                <h5>Unlimited subdomens</h5>
+                <button style="background-color: yellow">BUY</button>
+            </div></td>
+        <td><div class="enter">
+                <h3>STANDART</h3>
+                <hr style="background-color: blue">
+                <h1>$19</h1>
+                <h4 class="per">per month</h4 >
+
+                <h5>10GB disk space</h5>
+                <h5> 100GB monthly bandwidth</h5>
+                <h5>  20 email accounts</h5>
+                <h5> Unlimited subdomens</h5>
+                <button style="background-color: blue">BUY</button>
+            </div></td>
+        <td><div class="enter">
+                <h3>BASIC</h3>
+                <hr style="background-color: greenyellow">
+                <h1>$69</h1>
+                <h4 class="per">per month</h4>
+
+                <h5> 10GB disk space</h5>
+                <h5> 100GB monthly bandwidth</h5>
+                <h5>  20 email accounts</h5>
+                <h5> Unlimited subdomens</h5>
+                <button style="background-color: greenyellow">BUY</button>
+            </div></td>
+
+    </tr>
+</table>
+
+
+</body>
+</html>
