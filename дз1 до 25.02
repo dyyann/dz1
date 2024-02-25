@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.header {
+    background-color: orangered;
+    padding: 10px 40px;
+    width: 500px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index:1  ;
+}
+body {
+    font-family: sans-serif;
+}
+.card {
+    background-color: cornflowerblue;
+    width: 800px;
+    height: 400px;
+
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 0.5;
+
+}
+
+.first {
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    z-index: 0;
+}
+.big {
+     width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+.second {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    z-index: 0;
+    width: 100%;
+    width: 400px;
+
+}
+.small {
+    width: 80px;
+    padding: 10px 10px;
+    margin: 8px 27px 8px 0;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+span {
+    margin-left: 182px
+}
+img {
+    width: 205px;
+    position: absolute;
+    top: 190px;
+    left: 623px;
+    z-index: 1;
+    border-radius: 10px;
+
+}
+</style>
+
+    <meta charset="UTF-8">
+    <title>DayDengi</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<p class="header"> CREDIT CARD DETALS</p>
+
+<div class="card">
+<form class="first">
+  Card Number<br>
+  <input class="big" type="text" name="firstname" value=" 1234 5678 9012 3456">
+  <br>
+  Name on card<br>
+  <input class="big"  type="text" name="lastname" value="Name Surname">
+</form>
+<form class="second">
+    Expiry Date <span>CVV/CVN</span>  <br>
+    <input type="text" value="02" class="small">
+    <input type="text" value="2017" class="small">
+
+    <input type="password" value="023" class="small">
+
+</form>
+
+
+</div>
+<img src="icon/moon_flag2.png" alt="">
+
+
+</body>
+</html>
